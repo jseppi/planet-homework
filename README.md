@@ -38,7 +38,7 @@ For a shortcut, follow these steps:
 
 ## Usage
 
-After Setup is complete, you can start a server at `http://127.0.0.1:8000` with
+After [Setup](#setup) is complete, you can start a server at `http://127.0.0.1:8000` with
 
 ```sh
 make start
@@ -82,7 +82,7 @@ Returns a single preview PNG image of the prepared COG file.
 
 ## Development
 
-Once Setup is complete, you are ready to start development.
+Once [Setup](#setup) is complete, you are ready to start development.
 
 ### Dev server
 
