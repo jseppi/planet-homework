@@ -102,7 +102,7 @@ The server will reload whenever changes are made to source files.
 
 ### Tests
 
-This project uses the [`pytest`](https://docs.pytest.org/en/6.2.x/) framework for tests. Coverage is enforced with `pytest-cov`.
+This project uses the [`pytest`](https://docs.pytest.org/en/6.2.x/) framework for tests. Coverage is enforced with [`pytest-cov`](https://pytest-cov.readthedocs.io/en/latest/).
 
 Formatting and linting is done with [`black`](https://black.readthedocs.io/en/stable/) and [`flake8`](https://flake8.pycqa.org/en/latest/).
 
