@@ -1,0 +1,9 @@
+black=21.7b0
+flake8=3.9.2
+flake8-import-order=0.18.1
+pillow=8.3.1
+pytest=6.2.4
+pytest-cov=2.12.1
+pytest-watch=4.1.0
+rio-cogeo=2.3.1
+snapshottest=0.5.1
