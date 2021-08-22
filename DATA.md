@@ -112,7 +112,7 @@ Now that I've got an image that visually looks pretty good, I am ready to create
 Here's the `rio-cogeo` command, using the output file from the previous command:
 
 ```sh
-rio cogeo create ./data/tmp/homework_scaled.tiff ./app/assets/homework_cog.tiff --web-optimized --add-mask
+rio cogeo create ./data/tmp/homework_scaled.tiff ./app/assets/homework_cog.tiff --web-optimized --add-mask --blocksize 256
 ```
 
 ![preview image](/preview.png)
