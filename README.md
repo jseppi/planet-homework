@@ -54,6 +54,8 @@ Returns a 256x256 Web-Mercator PNG tile from the COG generated in the data prepa
 
 For requests that are out of bounds of the COG data, returns a blank (transparent) PNG.
 
+This route relies primarily on [`rio-tiler`](https://cogeotiff.github.io/rio-tiler/) for extracting the requested tile image from the imagery COG.
+
 #### GET `/tracts/{z}/{x}/{y}.json`
 
 ✅ - Required
@@ -61,6 +63,8 @@ For requests that are out of bounds of the COG data, returns a blank (transparen
 Returns GeoJSON of clipped features from the `tracts` table of the GeoPackage generated in the data preparation section, for the tile extent specified by the z, x, and y in the request path.
 
 For requests that are out of bounds of the `tracts` layer, returns an empty GeoJSON FeatureCollection.
+
+This route relies primarily on [`geopandas`](https://geopandas.org/) for extracting features and clipping them to the bounds of the requested tile.
 
 #### GET `/`
 

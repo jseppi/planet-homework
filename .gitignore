@@ -2,7 +2,7 @@
 .vscode/
 data/tmp/
 app/assets/homework_cog.tiff
-app/assets/homework.gpkj
+app/assets/homework.gpkg*
 homework.tiff
 homework.geojson
 

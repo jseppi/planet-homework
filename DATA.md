@@ -1,6 +1,6 @@
 # Data Preparation
 
-This file will describe the steps and tools used for converting the homework assignment's data files into the desired formats.
+This file describes the steps and tools used for converting the homework assignment's data files into the desired formats.
 
 ## Prerequisites
 
@@ -114,3 +114,5 @@ Here's the `rio-cogeo` command, using the output file from the previous command:
 ```sh
 rio cogeo create ./data/tmp/homework_scaled.tiff ./app/assets/homework_cog.tiff --web-optimized --add-mask
 ```
+
+![preview image](/preview.png)
