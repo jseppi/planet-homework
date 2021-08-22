@@ -48,7 +48,7 @@ make start
 
 #### GET `/imagery/{z}/{x}/{y}.png`
 
-✅ - Required
+✅ Required
 
 Returns a 256x256 Web-Mercator PNG tile from the COG generated in the data preparation section, for the tile extent specified by the z, x, and y in the request path.
 
@@ -58,7 +58,7 @@ This route relies primarily on [`rio-tiler`](https://cogeotiff.github.io/rio-til
 
 #### GET `/tracts/{z}/{x}/{y}.json`
 
-✅ - Required
+✅ Required
 
 Returns GeoJSON of clipped features from the `tracts` table of the GeoPackage generated in the data preparation section, for the tile extent specified by the z, x, and y in the request path.
 
